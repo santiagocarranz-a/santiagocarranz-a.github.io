@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+        --Brightorange: hsl(31, 77%, 52%);
+        --Darkcyan: hsl(184, 100%, 22%);
+        --Verydarkcyan: hsl(179, 100%, 13%);
+        --Transparentwhite: hsla(0, 0%, 100%, 0.75);
+        --Verylightgray: hsl(0, 0%, 95%);
+ }
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:'lexend deca',sans-serif ;
+    font-weight: 400px;
+    font-size: 15px;
+    margin: 20px; /*margin momentaneo*/
+    background: var(--Verylightgray);
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+
+}
+
+article{
+    max-width: 300px;
+}
+section{
+    padding:50px;
+    
+}
+
+.sedans{
+    background: var(--Brightorange);
+    border: solid transparent 1px;
+    border-radius: 1em 1em 0 0;
+}
+.suvs{
+    background: var(--Darkcyan);
+}
+.luxury{
+    background: var(--Verydarkcyan);
+    border: solid transparent 1px;
+    border-radius: 0 0 1em 1em;
+}
+div img{
+    padding-bottom:32px;
+}
+
+h2{
+    font-family: 'big shoulders display', sans-serif;
+    font-size:2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--Verylightgray);
+    padding-bottom: 26px;
+}
+.paragraph{
+    color: var(--Transparentwhite);
+    line-height: 26px;
+    margin-bottom: 1.6em;
+}
+.sedans .button p{
+    color:var(--Brightorange);
+}
+.suvs .button p{
+    color:var(--Darkcyan);
+}
+.luxury .button p{
+    color:var(--Verydarkcyan);
+}
+
+.button{
+    background: var(--Verylightgray);
+    border: solid 2px var(--Verylightgray);
+    border-radius: 2em;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.button p{
+    padding: 1em 2em 1em;
+
+}
+
+.button p:hover{
+    color: var(--Verylightgray);
+
+}
+.button:hover{
+    background: transparent;
+}
+
+.attribution{
+    margin-top: 15px;
+    background-color: aqua;
+}
+
+
+@media (min-width: 1100px){
+    body{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    }
+    .sedans{
+        border: solid transparent 1px;
+        border-radius: 1em 0em 0 1em;
+        margin-top:;
+        
+    }
+    .luxury{
+        border: solid transparent 1px;
+        border-radius: 0 1em 1em 0;
+    }
+    
+    h2{
+        padding-top:-30px;
+    }
+    .paragraph{
+        padding-bottom: 3.3em;
+    }
+    .attribution{
+        position: absolute;
+        bottom: 0;
+        background-color: aqua;
+        }
+}

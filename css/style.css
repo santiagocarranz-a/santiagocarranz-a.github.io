@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: aquamarine;
+}
+.contenedor{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    height: 50vh;
+    margin: 0 auto;
+    padding: 2em;
+    background: blueviolet;
+    text-align: center;
+}
+.pag{
+    background: burlywood;
+    padding: 1em;
+}
+.column3{
+    background: chartreuse;
+    padding: 2em;
+}
+.nft{
+    background: crimson;
+    padding: 2em;
+}
