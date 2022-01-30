@@ -4,27 +4,64 @@
     box-sizing: border-box;
 }
 body{
-    background: aquamarine;
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-family: sans-serif;
+    min-height:100vh;
+    background: #200122;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 }
-.contenedor{
-    display: flex ;
-    flex-direction: column;
+.project-container {
+    display: flex;
     justify-content: center;
-    height: 50vh;
-    margin: 0 auto;
-    padding: 2em;
-    background: rgb(55, 43, 226);
-    text-align: center;
+    align-items:center;
+    min-height:95vh;
+
+
 }
-.pag{
-    background: burlywood;
+/*
+Agregue mas tarde los link de los proyectos de las paginas y se rompio 
+al achicar las dimensiones se rompe
+si saco el texto del elemento "a" y lo coloco en "div" se soluciona ese problema
+pero luego sucede otro: problema del css respecto a los estilos 
+
+
+*/
+
+
+.project-container a {
+    color: rgb(255, 249, 249);
+    background: rgba(35, 6, 163, 0.678);
+    margin: 10px;
+    border: rgb(238, 238, 238) solid 5px;
+    border-radius: 2em;
     padding: 1em;
+    text-align: center;
+    text-decoration: none;
 }
-.column3{
-    background: chartreuse;
-    padding: 2em;
+.project-container a:hover{
+    background: rgb(250, 249, 250);
+    color: rgb(64, 224, 208);
+    box-shadow: 0px 0px 10px 10px;
 }
-.nft{
-    background: crimson;
-    padding: 2em;
+.footer_autor{
+    position: absolute;
+    margin-left:14px;
+    margin-bottom: 5px;
+    color: rgba(0, 0, 0, .5);
+    
+}
+.footer_autor:hover{
+    color: rgb(64, 224, 208);
+
+}
+@media (max-width: 620px){
+    .project-container{
+    display: flex;
+    flex-direction: column;
+
 }
