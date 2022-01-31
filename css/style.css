@@ -5,36 +5,37 @@
 @font-face {
     font-family: 'font-autor';
     src: url("font/Quintessential/Quintessential-Regular.ttf");
+    
 }
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 body{
-    background: #FFFFFF;
     color: rgb(255, 255, 255);
     font-size: 2rem;
-    font-family: sans-serif;
+    font-family: 'sans-serif';
     min-height:100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     
 }
-
 .project-container {
     font-family: 'font-projects';
-   background: hsl(239, 93%, 48%);
-   padding:.5rem 0;
-   margin: 2rem ;
-   border-radius: .5rem;
+    background: hsl(241, 79%, 37%);
+    padding:.5rem 0;
+    margin: 2rem ;
+    border-radius: .5rem;
+    border-top: hsl(47, 100%, 50%) solid 5px;
+    border-left: hsl(149, 100%, 65%) solid 5px;
 
 }
-
 .project-container a {
-    color: #000000;
-    background: #FFFFFF;
+    color: hsl(0, 0%, 0%);
+    background: hsl(0, 0%, 100%);
     border: hsl(133, 100%, 30%) 3px dashed;
     border-radius: 1em;
     padding: 1em;
@@ -46,25 +47,22 @@ body{
     min-height:10vh;
     margin: 100px 100px 100px;
 
-
 }
 .project-container a:hover{
-    background: #FFFFFF;
-    color: #9127FF;
+    background: hsl(0, 0%, 100%);
+    color: hsl(269, 100%, 58%);
     border: brown;
-    border: #4EFFA5 5px sold;
-    box-shadow:hsl(133, 100%, 30%) 10px 10px 0px 2px ;
-
+    border: hsl(149, 100%, 65%) 5px sold;
+    box-shadow:hsl(149, 100%, 65%) 10px 10px 0px 2px ;
 
 }
-
-
 .container_autor{
     display: flex;
     justify-content: center;
-    background: hsl(239, 93%, 48%);
+    background: hsl(241, 79%, 37%);
     padding: .5em;
-    border-top: 5px solid #d40909;
+    border-top: 5px solid hsl(47, 100%, 50%);
+    border-left: hsl(149, 100%, 65%) solid 5px;
     margin: .5rem;
     border-radius: .5rem;
     
@@ -72,29 +70,40 @@ body{
 .autor{
     font-family:'font-autor';
     font-size:1.5rem;
-    background: ;
-    color: #FFFFFF;
+    color: hsl(0, 0%, 100%);
     border-radius: .5em;
     padding: 5px 10px;
+    cursor: none;
 
 }
 .autor:hover{
-    color: #d40909;
+    color:hsl(149, 100%, 65%);
     overflow: hidden;
-    transition: 
 }
 
-
-
 @media (max-width: 620px){
+
     body{
-        font-size: 1rem;
+    font-size: 1rem;
+
     }
     .project-container a{
     margin:50px;
+
     }
     .project-container a:hover{
-        box-shadow:#4EFFA5 10px 10px 0px .1px ;
+    box-shadow:hsl(149, 100%, 65%) 10px 10px 0px .1px ;
+    
     }
+    .container_autor{
+    padding: .2em;
+    margin: .2rem;
+    border-radius: .5rem;
+        
+    }
+    .autor{
+    font-size:1rem;
+    border-radius: .5em;
+    padding: 2px;
 
 }
