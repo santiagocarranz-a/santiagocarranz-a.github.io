@@ -1,67 +1,100 @@
+@font-face {
+    font-family:'font-projects';
+    src: url("font/Supermercado_One/SupermercadoOne-Regular.ttf");
+}
+@font-face {
+    font-family: 'font-autor';
+    src: url("font/Quintessential/Quintessential-Regular.ttf");
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    background: rgb(0, 0, 0);
+    background: #FFFFFF;
     color: rgb(255, 255, 255);
     font-size: 2rem;
     font-family: sans-serif;
     min-height:100vh;
-    background: #200122;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #6f0000, #200122);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #6f0000, #200122); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-}
-.project-container {
     display: flex;
-    justify-content: center;
-    align-items:center;
-    min-height:95vh;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
 
+.project-container {
+    font-family: 'font-projects';
+   background: hsl(239, 93%, 48%);
+   padding:.5rem 0;
+   margin: 2rem ;
+   border-radius: .5rem;
 
 }
-/*
-Agregue mas tarde los link de los proyectos de las paginas y se rompio 
-al achicar las dimensiones se rompe
-si saco el texto del elemento "a" y lo coloco en "div" se soluciona ese problema
-pero luego sucede otro: problema del css respecto a los estilos 
-
-
-*/
-
 
 .project-container a {
-    color: rgb(255, 249, 249);
-    background: rgba(35, 6, 163, 0.678);
-    margin: 10px;
-    border: rgb(238, 238, 238) solid 5px;
-    border-radius: 2em;
+    color: #000000;
+    background: #FFFFFF;
+    border: hsl(133, 100%, 30%) 3px dashed;
+    border-radius: 1em;
     padding: 1em;
     text-align: center;
     text-decoration: none;
-}
-.project-container a:hover{
-    background: rgb(250, 249, 250);
-    color: rgb(64, 224, 208);
-    box-shadow: 0px 0px 10px 10px;
-}
-.footer_autor{
-    position: absolute;
-    margin-left:14px;
-    margin-bottom: 5px;
-    color: rgba(0, 0, 0, .5);
-    
-}
-.footer_autor:hover{
-    color: rgb(64, 224, 208);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    min-height:10vh;
+    margin: 100px 100px 100px;
+
 
 }
-@media (max-width: 620px){
-    .project-container{
+.project-container a:hover{
+    background: #FFFFFF;
+    color: #9127FF;
+    border: brown;
+    border: #4EFFA5 5px sold;
+    box-shadow:hsl(133, 100%, 30%) 10px 10px 0px 2px ;
+
+
+}
+
+
+.container_autor{
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    background: hsl(239, 93%, 48%);
+    padding: .5em;
+    border-top: 5px solid #d40909;
+    margin: .5rem;
+    border-radius: .5rem;
+    
+}
+.autor{
+    font-family:'font-autor';
+    font-size:1.5rem;
+    background: ;
+    color: #FFFFFF;
+    border-radius: .5em;
+    padding: 5px 10px;
+
+}
+.autor:hover{
+    color: #d40909;
+    overflow: hidden;
+    transition: 
+}
+
+
+
+@media (max-width: 620px){
+    body{
+        font-size: 1rem;
+    }
+    .project-container a{
+    margin:50px;
+    }
+    .project-container a:hover{
+        box-shadow:#4EFFA5 10px 10px 0px .1px ;
+    }
 
 }
