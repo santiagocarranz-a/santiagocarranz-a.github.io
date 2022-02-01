@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
-/*
-COMENTARIOS ENTRE LOS ESTILOS Y SECCION DE ERRORES A LO ÚLTIMO
-
-*/
 
 *{
     margin: 0;
@@ -24,11 +20,19 @@ body{
 
 }
 
+h1{
+    position:absolute;
+    color:transparent;
+    top:0;
+    display: none;
+
+}
+
 main{
     background-color: hsl(216, 50%, 16%);
     padding: 1.8rem;
     margin-bottom: 3rem;
-    width: 320px;
+    width: 350px;
     border-radius:1rem;
     display:flex;
     flex-wrap:wrap;
@@ -180,12 +184,3 @@ ul{
         
     }
 
-/*
-ERRORES:
-
-[Utilizando: "toggle device toolbar" modo mobile] :
-Sucede_ Al hacer click en la imagen central =
-# Aparece un cuadrado con transparencia que genera una molestia estetica
-- en las 4 extremos "esquinas punteadas sobresalientes" y en la parte de abajo un margen
-
-*/
