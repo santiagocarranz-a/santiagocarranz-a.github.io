@@ -28,7 +28,7 @@ Users should be able to:
 ### Links
 
 Agregar link:
-pagina de frontende mentor donde subire mi proyecto
+pagina de frontend mentor donde subire mi proyecto
 pagina de github
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
