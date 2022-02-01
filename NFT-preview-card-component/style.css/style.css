@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
 
-/*
-COMENTARIOS ENTRE LOS ESTILOS Y SECCION DE ERRORES A LO ÚLTIMO
 
-*/
 
 *{
     margin: 0;
@@ -180,12 +177,3 @@ ul{
         
     }
 
-/*
-ERRORES:
-
-[Utilizando: "toggle device toolbar" modo mobile] :
-Sucede_ Al hacer click en la imagen central =
-# Aparece un cuadrado con transparencia que genera una molestia estetica
-- en las 4 extremos "esquinas punteadas sobresalientes" y en la parte de abajo un margen
-
-*/
