@@ -2,6 +2,9 @@
 
 This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
+![3 column preview card component solution](https://user-images.githubusercontent.com/97317493/151999770-55c3e95b-64a7-4df1-ab55-415a2d9d2ac1.png)
+
+
 ## Table of contents
 
 - [Overview](#overview)
