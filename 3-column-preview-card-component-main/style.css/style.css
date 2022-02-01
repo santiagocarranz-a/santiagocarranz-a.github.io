@@ -116,6 +116,9 @@ h2{
     justify-content: center;
     min-height: 100vh;
     }
+    article{
+        max-width: 311px;
+    }
     .sedans{
         border: solid transparent 1px;
         border-radius: 1em 0em 0 1em;
