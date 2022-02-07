@@ -55,7 +55,7 @@ body{
     border: hsl(149, 100%, 65%) 5px sold;
     box-shadow:hsl(149, 100%, 65%) 10px 10px 0px 2px ;
     border: hsl(133, 100%, 30%) 3px dashed;
-    
+
 }
 .container_autor{
     display: flex;
@@ -107,4 +107,5 @@ body{
     border-radius: .5em;
     padding: 2px;
 
+}
 }
