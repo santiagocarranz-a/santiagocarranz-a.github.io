@@ -17,15 +17,22 @@ body{
     color: rgb(255, 255, 255);
     font-size: 2rem;
     font-family: 'sans-serif';
+    background-image:url("img/tropi.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+main{
     min-height:100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    
 }
+
 .project-container {
     font-family: 'font-projects';
-    background: hsl(241, 79%, 37%);
+    background: hsla(241, 86%, 60%, 0.767);
     padding:.5rem 0;
     margin: 2rem ;
     border-radius: .5rem;
@@ -42,6 +49,7 @@ body{
     text-align: center;
     text-decoration: none;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items:center;
     min-height:10vh;
@@ -59,13 +67,16 @@ body{
 }
 .container_autor{
     display: flex;
-    justify-content: center;
-    background: hsl(241, 79%, 37%);
+    flex-wrap: wrap;
+    justify-content:center;
+
+    background: hsla(241, 69%, 14%, 0.876);
     padding: .5em;
     border-top: 5px solid hsl(47, 100%, 50%);
     border-left: hsl(149, 100%, 65%) solid 5px;
     margin: .5rem;
     border-radius: .5rem;
+
     
 }
 .autor{
@@ -81,12 +92,18 @@ body{
     color:hsl(149, 100%, 65%);
     overflow: hidden;
 }
+.linkedin a img{
+    display: flex;
+    align-self:center;
+    width: 1.4em;
+    
+}
+
 
 @media (max-width: 620px){
 
     body{
     font-size: 1rem;
-
     }
     .project-container a{
     margin:50px;
@@ -107,5 +124,4 @@ body{
     border-radius: .5em;
     padding: 2px;
 
-}
 }
