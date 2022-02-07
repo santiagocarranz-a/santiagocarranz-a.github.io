@@ -34,7 +34,7 @@ body{
 
 }
 .project-container a {
-    color: hsl(0, 0%, 0%);
+    color: hsl(0, 0%, 30%);
     background: hsl(0, 0%, 100%);
     border: hsl(133, 100%, 30%) 3px dashed;
     border-radius: 1em;
@@ -54,7 +54,8 @@ body{
     border: brown;
     border: hsl(149, 100%, 65%) 5px sold;
     box-shadow:hsl(149, 100%, 65%) 10px 10px 0px 2px ;
-
+    border: hsl(133, 100%, 30%) 3px dashed;
+    
 }
 .container_autor{
     display: flex;
