@@ -70,16 +70,14 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
-
     background: hsla(241, 69%, 14%, 0.876);
     padding: .5em;
     border-top: 5px solid hsl(47, 100%, 50%);
-    border-left: hsl(162, 81%, 49%)) solid 5px;
-    margin: .5rem;
-    border-radius: .5rem;
-
-    
+    border-left: hsl(162, 81%, 49%) solid 5px;
+    margin:.5rem;
+    border-radius:.5rem;   
 }
+
 .autor{
     font-family:'font-autor';
     font-size:1.5rem;
