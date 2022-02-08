@@ -17,7 +17,7 @@ body{
     color: rgb(255, 255, 255);
     font-size: 2rem;
     font-family: 'sans-serif';
-    background-image:url("img/tropi.jpg");
+    background-image:url("img/Azul\ Verde\ Planta\ Zoom\ Fondo\ Virtual.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -37,10 +37,11 @@ main{
     margin: 2rem ;
     border-radius: .5rem;
     border-top: hsl(47, 100%, 50%) solid 5px;
-    border-left: hsl(149, 100%, 65%) solid 5px;
+    border-left: hsl(162, 81%, 49%) solid 5px;
 
 }
 .project-container a {
+    font-size: 1.5rem;
     color: hsl(0, 0%, 30%);
     background: hsl(0, 0%, 100%);
     border: hsl(133, 100%, 30%) 3px dashed;
@@ -60,8 +61,8 @@ main{
     background: hsl(0, 0%, 100%);
     color: hsl(269, 100%, 58%);
     border: brown;
-    border: hsl(149, 100%, 65%) 5px sold;
-    box-shadow:hsl(149, 100%, 65%) 20px 18px 0px .1px ;
+    border: hsl(162, 81%, 49%) 5px sold;
+    box-shadow:hsl(162, 81%, 49%) 20px 18px 0px .1px ;
     border: hsl(0, 0%, 100%) 3px dashed;
 
 }
@@ -73,7 +74,7 @@ main{
     background: hsla(241, 69%, 14%, 0.876);
     padding: .5em;
     border-top: 5px solid hsl(47, 100%, 50%);
-    border-left: hsl(149, 100%, 65%) solid 5px;
+    border-left: hsl(162, 81%, 49%)) solid 5px;
     margin: .5rem;
     border-radius: .5rem;
 
@@ -89,7 +90,7 @@ main{
 
 }
 .autor:hover{
-    color:hsl(149, 100%, 65%);
+    color:hsl(162, 81%, 49%);
     overflow: hidden;
 }
 .linkedin a img{
@@ -107,10 +108,11 @@ main{
     }
     .project-container a{
     margin:50px;
+    font-size: 1rem;
 
     }
     .project-container a:hover{
-    box-shadow:hsl(149, 100%, 65%) 10px 10px 0px .1px ;
+    box-shadow:hsl(162, 81%, 49%) 10px 10px 0px .1px ;
     
     }
     .container_autor{
