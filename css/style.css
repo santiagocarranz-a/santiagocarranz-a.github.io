@@ -17,9 +17,7 @@ body{
     color: rgb(255, 255, 255);
     font-size: 2rem;
     font-family: 'sans-serif';
-    background-image:url("img/Azul\ Verde\ Planta\ Zoom\ Fondo\ Virtual.png");
-    background-repeat: no-repeat;
-    background-position: center;
+    background:url("img/fondo.png") no-repeat center fixed #110062;
     background-size: cover;
     
 }
