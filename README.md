@@ -4,7 +4,7 @@
 
 # Blog de programación 2023 - Deployment
 
-Este repositorio contiene la versión **compilada y lista para producción** de mi blog de programación creado en 2023.
+Este repositorio contiene la versión **compilada y lista para producción**.
 
 El código fuente del proyecto se encuentra separado en dos repositorios principales:
 
