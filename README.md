@@ -8,5 +8,5 @@ Este repositorio contiene la versión **compilada y lista para producción** de 
 
 El código fuente del proyecto se encuentra separado en dos repositorios principales:
 
-🔹 **Frontend (Código fuente de desarrollo)**: [Repositorio del frontend](https://github.com/santiagocarranz-a/personal-programming-blog-frontend-pb)  
-🔹 **Backend (Código fuente de desarrollo)**: [Repositorio del backend](https://github.com/santiagocarranz-a/blog-dev-api)
+🔹 **Frontend**: [Repositorio del frontend](https://github.com/santiagocarranz-a/personal-programming-blog-frontend-pb)  
+🔹 **Backend**: [Repositorio del backend](https://github.com/santiagocarranz-a/blog-dev-api)
